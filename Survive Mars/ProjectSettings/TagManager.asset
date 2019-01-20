@@ -7,6 +7,7 @@ TagManager:
   - Planet
   - Landing Pad
   - Enemy
+  - Wall
   layers:
   - Default
   - TransparentFX

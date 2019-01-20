@@ -40,6 +40,12 @@ public class PlayerControl : MonoBehaviour
             yVel -= 1;
         }
 
+        /*if(xVel != 0 && yVel != 0)
+        {
+            gameObject.transform.rotation.Set(xVel * Time.deltaTime, yVel * Time.deltaTime, 0, 1);
+        }*/
+        
+
         xVel *= Time.deltaTime * acceleration;
         yVel *= Time.deltaTime * acceleration;
 
